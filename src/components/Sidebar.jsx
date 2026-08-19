@@ -35,3 +35,4 @@ export default function Sidebar({ view, setView, onLogout }) {
     </aside>
   )
 }
+

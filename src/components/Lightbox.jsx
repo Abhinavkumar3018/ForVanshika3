@@ -49,3 +49,4 @@ export default function Lightbox({ photos, index, setIndex, onClose }) {
     </div>
   )
 }
+

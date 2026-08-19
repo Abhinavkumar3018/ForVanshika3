@@ -10,8 +10,8 @@ export const songs = [
     title: 'Sheesha',
     artist: 'For You',
     album: 'Our Story',
-    cover: '/images/1.jpeg',
-    audio: '/music/song1.mp3',
+    cover: '/ForVanshika3/images/1.jpeg',
+    audio: '/ForVanshika3/music/song1.mp3',
     duration: 189.6,
   },
   {
@@ -19,8 +19,8 @@ export const songs = [
     title: 'MERE NISHAAN',
     artist: 'For You',
     album: 'Our Story',
-    cover: '/images/4.jpeg',
-    audio: '/music/song2.mp3',
+    cover: '/ForVanshika3/images/4.jpeg',
+    audio: '/ForVanshika3/music/song2.mp3',
     duration: 249,
   },
   {
@@ -28,8 +28,8 @@ export const songs = [
     title: 'SONI SONI',
     artist: 'For You',
     album: 'Our Story',
-    cover: '/images/9.jpeg',
-    audio: '/music/song3.mp3',
+    cover: '/ForVanshika3/images/9.jpeg',
+    audio: '/ForVanshika3/music/song3.mp3',
     duration: 187.8,
   },
   {
@@ -37,8 +37,8 @@ export const songs = [
     title: 'MATWALIYE',
     artist: 'For You',
     album: 'Our Story',
-    cover: '/images/12.jpeg',
-    audio: '/music/song4.mp3',
+    cover: '/ForVanshika3/images/12.jpeg',
+    audio: '/ForVanshika3/music/song4.mp3',
     duration: 269.4,
   },
   {
@@ -46,8 +46,9 @@ export const songs = [
     title: 'UDAARIYAN',
     artist: 'For You',
     album: 'Our Story',
-    cover: '/images/14.jpeg',
-    audio: '/music/song5.mp3',
+    cover: '/ForVanshika3/images/14.jpeg',
+    audio: '/ForVanshika3/music/song5.mp3',
     duration: 325.2,
   },
 ]
+

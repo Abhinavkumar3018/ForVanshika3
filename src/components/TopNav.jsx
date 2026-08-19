@@ -57,3 +57,4 @@ export default function TopNav({ view, setView, onLogout }) {
     </header>
   )
 }
+

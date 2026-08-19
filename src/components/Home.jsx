@@ -3,12 +3,12 @@ import { usePlayer } from '../context/PlayerContext.jsx'
 import Footer from './Footer.jsx'
 
 const COLLAGE = [
-  { src: '/images/1.jpeg', top: '4%', left: '2%', size: 150, rot: -6, delay: 0 },
-  { src: '/images/4.jpeg', top: '2%', left: '58%', size: 130, rot: 5, delay: 0.6 },
-  { src: '/images/9.jpeg', top: '34%', left: '76%', size: 140, rot: -4, delay: 1.2 },
-  { src: '/images/5.jpeg', top: '52%', left: '10%', size: 120, rot: 7, delay: 0.3 },
-  { src: '/images/12.jpeg', top: '60%', left: '46%', size: 150, rot: -3, delay: 0.9 },
-  { src: '/images/7.jpeg', top: '10%', left: '32%', size: 100, rot: 4, delay: 1.5 },
+  { src: '/ForVanshika3/images/1.jpeg', top: '4%', left: '2%', size: 150, rot: -6, delay: 0 },
+  { src: '/ForVanshika3/images/4.jpeg', top: '2%', left: '58%', size: 130, rot: 5, delay: 0.6 },
+  { src: '/ForVanshika3/images/9.jpeg', top: '34%', left: '76%', size: 140, rot: -4, delay: 1.2 },
+  { src: '/ForVanshika3/images/5.jpeg', top: '52%', left: '10%', size: 120, rot: 7, delay: 0.3 },
+  { src: '/ForVanshika3/images/12.jpeg', top: '60%', left: '46%', size: 150, rot: -3, delay: 0.9 },
+  { src: '/ForVanshika3/images/7.jpeg', top: '10%', left: '32%', size: 100, rot: 4, delay: 1.5 },
 ]
 
 export default function Home({ goPlaylist }) {
@@ -47,7 +47,7 @@ export default function Home({ goPlaylist }) {
       <section className="made-for-you">
         <h2>Made for You</h2>
         <div className="playlist-card" onClick={goPlaylist}>
-          <img src="/images/1.jpeg" alt="Our Story cover" className="playlist-cover" />
+          <img src="/ForVanshika3/images/1.jpeg" alt="Our Story cover" className="playlist-cover" />
           <div className="playlist-info">
             <span className="playlist-eyebrow">Playlist</span>
             <h3>Our Story ♡</h3>
@@ -71,3 +71,4 @@ export default function Home({ goPlaylist }) {
     </div>
   )
 }
+

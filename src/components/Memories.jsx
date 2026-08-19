@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Lightbox from './Lightbox.jsx'
 import Footer from './Footer.jsx'
 
-const PHOTOS = Array.from({ length: 14 }, (_, i) => `/images/${i + 1}.jpeg`)
+const PHOTOS = Array.from({ length: 14 }, (_, i) => `/ForVanshika3/images/${i + 1}.jpeg`)
 
 export default function Memories() {
   const [openIndex, setOpenIndex] = useState(null)
@@ -36,3 +36,4 @@ export default function Memories() {
     </div>
   )
 }
+

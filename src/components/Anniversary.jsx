@@ -39,7 +39,7 @@ export default function Anniversary() {
       </div>
 
       <section className={`anniversary ${visible ? 'in-view' : ''}`} ref={ref}>
-        <img className="anniversary-photo" src="/images/10.jpeg" alt="Us" />
+        <img className="anniversary-photo" src="/ForVanshika3/images/10.jpeg" alt="Us" />
         <div className="anniversary-text">
           <p className="fade-line" style={{ transitionDelay: '0.1s' }}>
             {LINE1}
@@ -58,3 +58,4 @@ export default function Anniversary() {
     </div>
   )
 }
+
